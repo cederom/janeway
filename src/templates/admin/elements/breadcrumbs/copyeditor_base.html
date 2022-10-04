@@ -1,2 +1,0 @@
-<li><a href="{% url 'copyedit_requests' %}">Copyediting Requests</a></li>
-{% if copyedit %}<li><a href="{% url 'do_copyedit' copyedit.pk %}">Copyedit for {{ copyedit.article.title }}</a></li>{% endif %}
